@@ -29,6 +29,7 @@ command:
     - --reasoning-parser
     - qwen3
     - --enable-prefix-caching
+    - --enforce-eager
 env:
     - name: VLLM_ENGINE_ITERATION_TIMEOUT_S
       value: 3600
